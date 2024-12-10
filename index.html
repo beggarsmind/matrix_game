@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Memory Matrix: Icons of Computing - A fun memory game where you match pairs of iconic computing-related symbols. Test your memory and challenge yourself!"
+    />
+    <meta
+      name="keywords"
+      content="Memory game, Computing icons, Educational games, Fun activities, Visual Studio Code for Education"
+    />
+    <meta name="Ranjithkumar R" content="Ranjithkumar R" />
+    <meta property="og:title" content="Memory Matrix: Icons of Computing" />
+    <meta
+      property="og:description"
+      content="Test your memory skills by matching pairs of iconic computing-related symbols. Play now!"
+    />
+    <meta property="og:image" content="https://vscodeedu.com/cover.png" />
+    <meta property="og:url" content="https://vscodeedu.com" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Memory Matrix: Icons of Computing" />
+    <meta
+      name="twitter:description"
+      content="A fun game to match computing symbols. Challenge yourself!"
+    />
+    <meta name="twitter:image" content="https://vscodeedu.com/cover.png" />
+    <title>Memory Matrix: Icons of Computing</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="confetti-container"></div>
+    <header>
+      <h1>Memory Matrix Game</h1>
+      <h2>Icons of Computing </h2> <footer class="footer">
+        Re-Designed By Ranjithkumar.R (
+        <a href="https://github.com/beggarsmind">Beggar's Mind</a> )
+      </footer>
+      <p style="padding-top: 5px; font-size: 1.0em; margin-top: -15px;">
+        <a href="https://vscodeedu.com" alt="vscodeedu Education">made with ❤️</a>
+      </p>
+      <div id="timer" aria-label="Game timer"></div>
+      <div id="match-info" aria-label="Match information"></div>
+    </header>
+    <main>
+      <div id="popover-container">
+        <button id="instruction-btn">How to Play</button>
+        <div id="popover" class="hidden">
+          <h3>Instructions :-</h3>
+          <button id="close-btn">Close</button>
+          <p>
+            <hr>
+            <br>
+            <strong><i>Objective:</i></strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Match all pairs of cards by
+            flipping them two at a time. Clear the grid as quickly as possible.
+          </p>
+          <ol>
+            <li>Click on a card to reveal the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;symbol hidden behind it.</li>
+            <li>Click on a second card to &nbsp;&nbsp;&nbsp;&nbsp;reveal its symbol.</li>
+            <li>
+              If the cards match, they stay &nbsp;&nbsp;&nbsp;&nbsp;revealed. If not, they flip back
+              &nbsp;&nbsp;&nbsp; after a short delay.
+            </li>
+            <li>Repeat until all pairs are matched!</li>
+          </ol>
+          <p id="goodluck">Good luck and have fun!</p>
+        </div>
+      </div>
+
+      <div id="congratulations">Congratulations! You found all the pairs!</div>
+      <button id="play-again" style="display: none">Play Again</button>
+      <div id="game-board">
+        <div class="card" data-image="img1">
+          <img src="images/google.png" alt="Google Logo" />
+        </div>
+        <div class="card" data-image="img1">
+          <img src="images/google.png" alt="Google Logo" />
+        </div>
+        <div class="card" data-image="img2">
+          <img src="images/facebook.png" alt="Facebook Logo" />
+        </div>
+        <div class="card" data-image="img2">
+          <img src="images/facebook.png" alt="Facebook Logo" />
+        </div>
+        <div class="card" data-image="img3">
+          <img src="images/mx player.png" alt="Mx Player Logo" />
+        </div>
+        <div class="card" data-image="img3">
+          <img src="images/mx player.png" alt="Mx Player Logo" />
+        </div>
+        <div class="card" data-image="img4">
+          <img src="images/tiger.png" alt="Tiger Logo" />
+        </div>
+        <div class="card" data-image="img4">
+          <img src="images/tiger.png" alt="Tiger Logo" />
+        </div>
+        <div class="card" data-image="img5">
+          <img src="images/amazon.png" alt="Amazon Logo" />
+        </div>
+        <div class="card" data-image="img5">
+          <img src="images/amazon.png" alt="Amazon Logo" />
+        </div>
+        <div class="card" data-image="img6">
+          <img src="images/helo.png" alt="Helo App Logo" />
+        </div>
+        <div class="card" data-image="img6">
+          <img src="images/helo.png" alt="Helo App Logo" />
+        </div>
+        <div class="card" data-image="img7">
+          <img src="images/domino's.png" alt="Domino's Logo" />
+        </div>
+        <div class="card" data-image="img7">
+          <img src="images/domino's.png" alt="Domino's Logo" />
+        </div>
+        <div class="card" data-image="img8">
+          <img src="images/flipkart.png" alt="Flipkart Logo" />
+        </div>
+        <div class="card" data-image="img8">
+          <img src="images/flipkart.png" alt="Flipkart Logo" />
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
