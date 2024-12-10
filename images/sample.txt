@@ -1,0 +1,11 @@
+Memory Matrix: Icons of Computing
+Objective: The goal of the game is to match pairs of cards, each featuring an iconic computing symbol.
+
+How to Play:
+Flip a Card: Click on a card to reveal its symbol.
+Match the Pair: Click a second card to see if it matches. If they do, the cards stay face-up.
+Continue: Keep flipping and matching until all pairs are revealed.
+Features:
+Timed Challenge: Track your time and challenge yourself to beat your own score.
+Confetti Celebration: Enjoy a confetti animation when you win the game!
+Enjoy matching famous tech logos and testing your memory!
